@@ -63,7 +63,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
     .box{
-        height: 45rem;
+        height: 50rem;
         width: 60rem;
         background-color: #F4ECEC;
         margin: 10rem 0rem 0rem 27rem;
@@ -108,16 +108,16 @@ and (max-device-width : 480px) {
         border-radius: 0.4rem;
         cursor: pointer;
         outline: none;
-        font-size: 1rem;
+        font-size: 3rem;
         font-weight: bold;
         border: none;
         margin-left: 3rem;
       
     }
     .countvalue{
-        font-size: 4rem;
+        font-size: 7rem;
         color: rgb(12, 4, 4);
-        margin-left: 15rem;
+        margin-left: 10rem;
         
     
     }
