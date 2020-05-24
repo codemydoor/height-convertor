@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(245, 176, 150); 
+}
+p{
+    font-size: 6rem;
+    font-family: 'Piedra', cursive;
+    position: relative;
+    bottom: 4rem;
+    left: 25rem;
+}
+.box{
+    height: 30rem;
+    width: 35rem;
+    background-color: #F4ECEC;
+    margin: -10rem 0rem 0rem 27rem;
+    border-radius: 2rem;
+}
+.feetbox{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    outline: none;
+    border-radius: 0.4rem;
+}
+.inchesbox{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0.4rem;
+
+}
+.form{
+    padding-top: 6rem;
+    margin-left: 12rem;
+}
+
+.countvalue{
+    font-size: 4rem;
+    color: rgb(12, 4, 4);
+    
+
+}
+.button {
+    width: 10rem;
+    height: 3rem;
+    background-color: coral;
+    color: white;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+  
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .box{
+        height: 30rem;
+        width: 35rem;
+        background-color: #F4ECEC;
+        margin: 10rem 0rem 0rem 27rem;
+        border-radius: 2rem;
+        position: relative;
+        right: 5rem;
+        top: 9rem;
+    }
+    p{
+        font-size: 7rem;
+        font-weight: bolder;
+        font-family: 'Piedra', cursive;
+        position: relative;
+        top: 10rem;
+        left: 15rem;
+    }
+
+}
+
