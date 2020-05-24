@@ -63,13 +63,13 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
     .box{
-        height: 30rem;
-        width: 35rem;
+        height: 45rem;
+        width: 60rem;
         background-color: #F4ECEC;
         margin: 10rem 0rem 0rem 27rem;
         border-radius: 2rem;
         position: relative;
-        right: 5rem;
+        right: 20rem;
         top: 9rem;
     }
     p{
@@ -79,6 +79,47 @@ and (max-device-width : 480px) {
         position: relative;
         top: 10rem;
         left: 15rem;
+    }
+    .feetbox{
+        width: 30rem;
+        height: 7rem;
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        outline: none;
+        border-radius: 0.4rem;
+    }
+    .inchesbox{
+        width: 30rem;
+        height: 7rem;
+        font-size: 5rem;
+        margin-left: 3rem;
+        font-weight: bold;
+        outline: none;
+        border-radius: 0.4rem;
+    
+    }
+    .button {
+        width: 30rem;
+        height: 7rem;
+        background-color: coral;
+        color: white;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        margin-left: 3rem;
+      
+    }
+    .countvalue{
+        font-size: 4rem;
+        color: rgb(12, 4, 4);
+        margin-left: 15rem;
+        
+    
     }
 
 }
