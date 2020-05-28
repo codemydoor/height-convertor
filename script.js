@@ -7,10 +7,11 @@ button.onclick=function convert(e){
     foot=parseInt(foot.value);
     inches = parseInt(inches.value);
     if(isNaN(foot) || isNaN(inches)){
-        result.textContent = 0
+        result.textContent === 0
     }else{
-        let convertfeet = foot * 12;
-        const centimeterValue = convertfeet + inches;
+        let convertfeet = foot * 30.48;
+        let convertinches = inches * 2.54
+        const centimeterValue = convertfeet + convertinches;
         result.textContent = centimeterValue + " cm";
     }
    
